@@ -1,0 +1,28 @@
+.menu{
+    height: 88px;
+    background: #FFB342;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    &__items{
+        display: flex;
+        margin-left: 10px;
+        gap: 50px;
+    }
+    &__link{
+        font-family: 'Inter';
+        font-size: 20px;
+        line-height: 30px; 
+        transition: all .3s;
+        cursor: pointer;
+        &:hover{
+            color: #FFF;
+        }
+    }
+    &__btn{
+        width: 298px;
+        background: #1C2752;
+        color: #F4F4F4;
+    }
+}

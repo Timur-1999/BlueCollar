@@ -1,0 +1,31 @@
+.connection{
+    display: flex;
+    gap: 66px;
+    &__item{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        &__round{
+            width: 68px;
+            height: 68px;
+            background-color: #FFB342;
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &__txt{
+            font-family: 'Mulish';
+            font-size: 20px;
+            line-height: 26px;
+            letter-spacing: 0.36px;
+            color: #1C2752;
+            span{
+                font-family: 'Inter';
+                font-size: 17px;
+                line-height: 27px;
+                color: #7E7E7E;
+            }
+        }
+    }
+}

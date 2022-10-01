@@ -1,0 +1,32 @@
+.header{
+    &__info{
+        padding: 20px 0;
+        background: #F2F2F2;
+    }
+    &__item{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__hours{
+        font-family: 'Inter';
+        font-size: 17px;
+        line-height: 27px;
+        letter-spacing: 0.36px;
+        color: #1C2752;
+    }
+    &__social{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    &__main{
+        height: 128px;
+        padding: 30px 0 0;
+        position: relative;
+        &__wrapper{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+    }
+}

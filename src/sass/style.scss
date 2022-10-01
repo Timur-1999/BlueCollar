@@ -1,0 +1,13 @@
+@import 'libs/reboot';
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Mulish&display=swap');
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/connection';
+@import 'blocks/button';
+@import 'blocks/menu';
+@import 'blocks/promo';
