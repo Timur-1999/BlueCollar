@@ -1,0 +1,31 @@
+.title{
+    display: flex;
+    padding: 0px 21px;
+    gap: 10px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    background-color: $bg-color-gray;
+    width: 176px;
+    text-transform: capitalize;
+    &__transparent{
+        width: 652px;
+        background: rgba(255, 255, 255, 0.2);
+        color: #FFFFFF;
+    }
+}
+.subtitle{
+    font-family: 'Mulish';
+    font-weight: 400;
+    text-transform: capitalize;
+    &_white{
+        color: #fff;
+    }
+    &__promo{
+        font-size: 60px;
+        line-height: 78px;
+        letter-spacing: 1.2px;
+        margin: 30px 0px;
+    }
+}

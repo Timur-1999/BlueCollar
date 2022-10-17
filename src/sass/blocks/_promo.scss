@@ -2,4 +2,8 @@
     height: 813px;
     background: url("../img/bg/bg-main.jpg") (center)/cover no-repeat;
     margin-top: 30px;
+    padding-top: 260px;
+    &__wrapper{
+        width: 720px;
+    }
 }
